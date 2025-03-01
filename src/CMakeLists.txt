@@ -87,7 +87,7 @@ INSTALL( TARGETS wv2
     ARCHIVE DESTINATION lib${LIB_SUFFIX}/static
 )
 
-INSTALL( EXPORT wvWare DESTINATION lib${LIB_SUFFIX}/wvWare FILE wv2.cmake )
+INSTALL( EXPORT wvWare DESTINATION lib${LIB_SUFFIX}/cmake/wv2 FILE wv2-config.cmake )
 
 INSTALL( FILES ${wv2_HEADERS} olestorage.h
   DESTINATION include/wv2
